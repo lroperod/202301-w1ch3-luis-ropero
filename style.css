@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #0cdc6c;
+  height: 12rem;
+  display: flex;
+  padding: 3rem;
+  justify-content: space-between;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: white;
+}
+.menu ul {
+  display: flex;
+}
+.lista_de_la_compra {
+  width: 50;
+}
+.numero_items_comprados {
+  background-color: #85ffbd;
+  height: 8rem;
+  justify-content: space-between;
+}
+.items_comprados {
+  background-color: #fbab7e;
+  display: block;
+  justify-content: space-between;
+}
+.menu ul li {
+  margin: 0.5rem;
+  list-style: none;
+}
+.button_add_list {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  align-items: center;
+}
+p {
+  text-align: right;
+  font-weight: bolder;
+}
+.items {
+  text-align: right;
+}
+html {
+  background-color: #fbab7e;
+}
+.total_amount {
+  border-top: 1px solid black;
+}
