@@ -5,27 +5,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Lista de la compra</title>
 </head>
 
 <body>
   <header>
-    <h1>Lista de la compra</h1>
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Principal</a></li>
-        <li><a href="#">Lista</a></li>
-        <li><a href="#">Acerca de</a></li>
-      </ul>
-    </nav>
+    <div class="lista_de_la_compra">
+      <h1>Lista de la compra</h1>
+    </div>
+    <div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Principal</a></li>
+          <li><a href="#">Lista</a></li>
+          <li><a href="#">Acerca de</a></li>
+        </ul>
+      </nav>
+    </div>
+
   </header>
-  <section>
-    <button class="button add list" type="button">
+  <section class="numero_items_comprados">
+    <button class="button_add_list" type="button">
       +
     </button>
     <p>2/3 comprados</p>
   </section>
-  <section>
+  <section class="items_comprados">
     <div>
       <input type="checkbox" id="scales" name="scales" checked>
       <label for="scales">Pan</label>
@@ -42,14 +48,17 @@
       <input type="checkbox" id="horns" name="horns">
       <label for="horns">Tofu</label>
     </div>
-    <ul style="list-style: none;">
-      <li>0.75€ X</li>
-      <li>X</li>
-      <li>1.20€ X</li>
-      <li>4.35€ X</li>
-    </ul>
+    <div class="items">
+      <ul style="list-style: none;">
+        <li>0.75€ X</li>
+        <li>X</li>
+        <li>1.20€ X</li>
+        <li>4.35€ X</li>
+      </ul>
+    </div>
+
   </section>
-  <section>
+  <section class="total_amount">
     <p>6.3 €</p>
   </section>
 </body>
